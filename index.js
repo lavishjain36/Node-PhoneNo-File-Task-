@@ -1,5 +1,5 @@
-const watch=require('./watches/digitalwatches');
+const watch=require('./data/phoneno');
 
 
 //Use setInterval Function to call the indianWatch function every second
-setInterval(watch.indianWatch,1000);
+setInterval(watch.phoneno,1000);
